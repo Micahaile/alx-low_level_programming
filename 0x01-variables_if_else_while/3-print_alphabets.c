@@ -1,16 +1,20 @@
 #include <stdio.h>
-
 /**
  * main-print both lower and upper case
  * Return : 0 success
  */
 int main(void)
 {
-	char AlphA;
+	char alpha;
+	char alpha2;
 
-	for (AlphA = 'a'; AlphA <= 'Z'; AlphA++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		putchar(AlphA);
+		putchar(alpha);
+	}
+	for (alpha2 = 'A'; alpha2 <= 'Z'; alpha2++)
+	{
+		putchar(alpha2);
 	}
 	putchar('\n');
 	return (0);
