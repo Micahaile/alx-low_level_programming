@@ -10,7 +10,7 @@ int main(void)
 
 	for (numb1 = 0; numb1 <= 8; numb1++)
 	{
-		for (numb2 = 1; numb2 <= 9; numb2++)
+		for (numb2 = numb1 + 1; numb2 <= 9; numb2++)
 		{
 			putchar((numb1 % 10) + '0');
 			putchar((numb2 % 10) + '0');
