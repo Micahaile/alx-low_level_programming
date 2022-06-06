@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main-print both lower and upper case
- * Return : 0 success
+ * main - print lower and upper case
+ * Return: 0 success
  */
 int main(void)
 {
