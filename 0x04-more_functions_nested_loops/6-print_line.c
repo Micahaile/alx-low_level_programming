@@ -8,7 +8,7 @@ void print_line(int n)
 {
 	int r;
 
-	for (r = 0; r <= n; r++)
+	for (r = 1; r <= n; r++)
 	{
 		if (n == 0 || n < 0)
 			continue;
