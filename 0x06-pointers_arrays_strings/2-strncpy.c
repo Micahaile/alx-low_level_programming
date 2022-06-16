@@ -2,8 +2,9 @@
 /**
  * _strncpy - copies string
  * @dest: string to be copied into
- * @src: string to copy
- * @n: max bytes of string to copy
+ * @src: string to be copied
+ * @n: max byte to ccopy
+ * Return: 0 sucess
  */
 char *_strncpy(char *dest, char *src, int n)
 {
