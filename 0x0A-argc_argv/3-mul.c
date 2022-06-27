@@ -3,7 +3,7 @@
 /**
  * main - program that multiplies two numbers.
  * @argc: number of argument passed to the program
- * @argc: array of pointer to the program
+ * @argv: array of pointer to the program
  * Return: 0 success
  */
 int main(int argc, char *argv[])
